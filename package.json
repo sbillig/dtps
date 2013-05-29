@@ -1,0 +1,11 @@
+{
+  "name": "dtps",
+  "version": "0.1.0",
+  "dependencies": {
+    "async": "0.2.x",
+    "underscore": "1.4.x",
+    "arango.client": "git://github.com/kaerus/arango-client#1.0",
+    "future": "2.3.x",
+    "join": "2.3.x"
+  }
+}
