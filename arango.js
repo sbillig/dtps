@@ -57,7 +57,6 @@ withCollections({name:'tdocs'}, {name:'tedges', type:3}, function(docc, edgec) {
     return _.partial(edgec.edge.create, a, b, d);
   }
 
-//  db.document.create({blah:'lksjf'}, console.log);
   var people = {
     Sue:   doc({name:'Sue', age:22}),
     Bob:   doc({name:'Bob', age:33}),
@@ -87,9 +86,6 @@ function errorHandler(err, res) {
 
 /*
 
-for t in traversal(tdocs, tedges, "tdocs/123", "outbound", {
-
-}
 
 db._query('for t in traversal_tree(tdocs, tedges, "tdocs/138266183", "outbound", "knows", {}) return t').toArray()
 db._query('for t in traversal(tdocs, tedges, "tdocs/138266183", "outbound", {}) return t').toArray()
